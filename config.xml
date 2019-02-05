@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.apexinfoserve.app"
+    versionCode = "10"
+    version     = "1.0.0">
+
+  <name>Apex Infoserve</name>
+
+  <description>Apex Infoserve Android App</description>
+
+  <author href="" email="eric.smith@apexinfoserve.com">
+      Eric Smith
+  </author>
+  
+  <platform name="android" />
+    
+   <access origin="*" />
+  
+  <icon src="img/icon.png" />
+  
+  <splash src="img/splash.png" />
+  
+  <plugin name="cordova-plugin-legacy-whitelist" spec="1.1.1" />
+  
+  <access origin="https://www.apexinfoserve.com" />
+
+</widget>
